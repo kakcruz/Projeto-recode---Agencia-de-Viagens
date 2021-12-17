@@ -1,0 +1,46 @@
+header {
+    height: 80px;
+}
+header a {
+    display: block;
+    color: #fff !important;
+    font-size: 20px;
+}
+
+
+
+#home .banner{ 
+    background-image: url(../Projeto_Agencia_de_Viagens/imagens/fundo-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+
+}
+
+#home .banner h2 {
+    margin-top: 120px;
+    color: #fff;
+    font-size: 50px;
+}
+
+#home .pesquisa {
+    margin-top: 480px;
+}
+
+#home .pesquisa .container {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#home .pacotes .container {
+    margin-top: 80px;
+
+}
