@@ -1,10 +1,16 @@
 header {
     height: 80px;
 }
+
+
 header a {
     display: block;
     color: #fff !important;
     font-size: 20px;
+}
+
+header .menucontatos a {
+    color: blue !important;
 }
 
 
@@ -40,7 +46,7 @@ header a {
 }
 
 #promocoes .banner{ 
-    background-image: url(../Projeto-recode---Agencia-de-Viagens/imagens/promocao.jpg);
+    background-image: url(../Projeto-recode---Agencia-de-Viagens/imagens/promocao.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -55,14 +61,12 @@ header a {
 
 
 
-
-
-
 #home .banner h2 {
     margin-top: 180px;
     color: #fff;
     font-size: 50px;
 }
+
 
 #home .pesquisa {
     margin-top: 480px;
@@ -98,4 +102,41 @@ h5{
     margin-top: 180px;
     color: #fff;
     font-size: 50px;
+}
+
+#home .faleconosco {
+    margin-top: 20px;
+    margin-left: 500px;
+    
+}
+
+#home .cardes{
+    margin-top: 20px;
+    display: flex;
+}
+
+#home .cardes .row{
+    display: flex;
+    justify-content: center;
+}
+
+
+#promocoes .container{
+margin-top: 220px;
+margin-right: 30px;
+
+}
+
+#home .btnpesquisar{
+    padding-top: 40px;
+}
+
+#promocao .cartao{
+    margin-top: 550px;
+}
+
+#promocao .cartao .container .btncomprar{
+    display: flex;
+    justify-content: flex-end;
+    
 }
