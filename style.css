@@ -81,13 +81,13 @@ header .menucontatos a {
 }
 
 #home .pacotes .container {
-    margin-top: 80px;
+   
 
 }
 
 
 h5{
-    color: rgb(2, 49, 8);
+    color: rgb(5, 2, 49);
 }
 
 #home .btnmaisdestinos{
@@ -139,4 +139,20 @@ margin-right: 30px;
     display: flex;
     justify-content: flex-end;
     
+}
+
+#home .icons .container .row{
+    height: 300px;
+    align-self: auto;
+    align-items: center;
+}
+
+#home .icons .ic{
+    font-size: 50px;
+}
+
+footer .rodape .container{
+    margin-top: 50px;
+    border-top: 1px solid gray;
+
 }
